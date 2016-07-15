@@ -265,6 +265,11 @@ textarea {
     margin-right: 10px;
 }
 
+
+/* ==========================================================================
+                                HEADER
+   ========================================================================== */
+
 .selus-header {
     white-space: nowrap;
     color: #FFFFFF;
@@ -274,6 +279,25 @@ textarea {
 .selus-header-bold {
     color: #2a5da3;
 }
+
+.header-image img {
+    width: 100%;
+    margin-top: 60px;
+    min-width: 400px;
+}
+
+/* ==========================================================================
+                                BUTTONS
+   ========================================================================== */
+
+.btn-primary {
+    background-color: #0A2345;
+    border-radius: 30px;
+    padding: 7px 40px;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
