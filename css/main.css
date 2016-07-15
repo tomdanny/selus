@@ -16,6 +16,11 @@ html {
     line-height: 1.4;
 }
 
+body {
+    padding-top:70px;
+    background-color: #0a2345;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -183,6 +188,91 @@ textarea {
 
 .clearfix:after {
     clear: both;
+}
+
+
+/* ==========================================================================
+                                NAVIGATION BAR 
+   ========================================================================== */
+
+
+.navbar-toggle .icon-bar:nth-of-type(2) {
+      top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+    top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+      position: relative;
+      transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+      top: 6px;
+      transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+      background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+      top: -6px;
+      transform: rotate(-45deg);
+}
+
+.navbar-header {
+  float: none;
+}
+.navbar-toggle {
+  display: block;
+  background-color: none;
+  border: none;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #0A2345;
+}
+
+.navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar-nav {
+  float: none!important;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-collapse.collapse.in{
+  display:block !important;
+}
+
+.navbar-custom {
+    background-color:#0A2345;
+}
+
+.nav li{
+   background-color:#0A2345 !important; 
+}
+
+.logo img{
+    width: 30%;
+    float: left;
+    margin-top: -8px;
+    margin-right: 10px;
+}
+
+.selus-header {
+    white-space: nowrap;
+    color: #FFFFFF;
+    margin-top: 90px;
+}
+
+.selus-header-bold {
+    color: #2a5da3;
 }
 
 /* ==========================================================================
