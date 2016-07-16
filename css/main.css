@@ -21,9 +21,13 @@ html {
 }
 
 body {
-    padding-top:70px;
-    background-color: #0a2345;
+    /*padding-top:70px;*/
     font-family: 'Montserrat', sans-serif;
+    background: #0a2344; /* For browsers that do not support gradients #0a2345; */
+    background: -webkit-linear-gradient(#0a2344, #061428); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0a2344, #061428); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0a2344, #061428); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0a2344, #061428); /* Standard syntax */
 }
 
 /*
@@ -242,6 +246,10 @@ textarea {
   background-color: #0A2345;
 }
 
+.navbar-inverse {
+  border: none;
+}
+
 .navbar-collapse.collapse {
   display: none!important;
 }
@@ -299,14 +307,15 @@ textarea {
 .header-image img {
     width: 100%;
     margin-top: 60px;
-    min-width: 400px;
+    /*min-width: 400px;*/
 }
 
-/*.cell-image img {
+
+.float-image img {
     width: 100%;
     margin-top: 100px;
-    min-width: 500px;
-}*/
+    /*min-width: 500px;*/
+}
 
 .mobile-icon img {
     width: 100%;
@@ -345,14 +354,23 @@ textarea {
 }
 
 
+@media only screen and (min-width:320px) and (max-width: 753px)  {
+
+  .selus-header {
+    font-size: 21px;
+  }
+
+}
+
+
 
 @media only screen and (min-width: 754px) {
 
-  .cell-image img {
+/*  .cell-image img {
       width: 100%;
       margin-top: 100px;
       min-width: 500px;
-  }
+  }*/
 
 }
 
