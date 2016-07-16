@@ -372,6 +372,36 @@ textarea {
 
 
 /* ==========================================================================
+                                FOOTER
+   ========================================================================== */
+
+
+ul.footer-nav {
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+ul.footer-nav li {
+  float: left;
+  font-size: 12px
+  white-space: nowrap;
+}
+
+ul.footer-nav li a {
+  display: block;
+  text-align: center;
+  padding: 0 16px;
+  text-decoration: none;
+}
+
+.copyright {
+  margin-top: 50px;
+  color: #337AB7;
+  font-size: 12px
+}
+
+
+/* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
@@ -391,6 +421,23 @@ textarea {
 
 @media only screen and (min-width:320px) and (max-width: 753px)  {
   
+  ul.footer-nav {
+    text-align: center;
+  }
+
+  ul.footer-nav li {
+    font-size: 9px;
+    white-space: nowrap;
+  }
+
+  ul.footer-nav li a {
+    padding: 0 10px;
+  }
+
+  .copyright {
+    text-align: center;
+    font-size: 9px;
+  }
 
 }
 
