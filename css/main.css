@@ -10,6 +10,10 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
 html {
     color: #222;
     font-size: 1em;
@@ -19,6 +23,7 @@ html {
 body {
     padding-top:70px;
     background-color: #0a2345;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*
@@ -280,10 +285,33 @@ textarea {
     color: #2a5da3;
 }
 
+.selus-subheader {
+    color: #55667e;
+}
+
+.selus-quote-header {
+    white-space: nowrap;
+    color: #FFFFFF;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
 .header-image img {
     width: 100%;
     margin-top: 60px;
     min-width: 400px;
+}
+
+/*.cell-image img {
+    width: 100%;
+    margin-top: 100px;
+    min-width: 500px;
+}*/
+
+.mobile-icon img {
+    width: 100%;
+    margin-top: 100px;
+    max-width: 40px;
 }
 
 /* ==========================================================================
@@ -295,7 +323,7 @@ textarea {
     border-radius: 30px;
     padding: 7px 40px;
     margin-top: 15px;
-    font-size: 13px;
+    font-size: 10px;
 }
 
 
@@ -315,6 +343,20 @@ textarea {
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
+
+
+@media only screen and (min-width: 754px) {
+
+  .cell-image img {
+      width: 100%;
+      margin-top: 100px;
+      min-width: 500px;
+  }
+
+}
+
+
 
 /* ==========================================================================
    Print styles.
