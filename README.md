@@ -18,3 +18,7 @@ responsive, functional, animated page (Front-End)
 **Tools used**
 
 Bootstrap, HTML5, CSS3, JavaScript, jQuery
+
+**Live Demo**
+
+http://danieltomic.com/selus/
