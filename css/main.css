@@ -501,6 +501,36 @@ ul.footer-nav li a {
 }
 
 
+@media only screen and (min-width: 767px) {
+
+.landing-image img {
+     margin-bottom: 100px;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1999px) {
+
+  .cellphone-image img {
+    min-width: 440px;
+    margin-left: -30px;
+    margin-top: 92px;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .cellphone-image img {
+    min-width: 420px;
+    margin-left: -30px;
+    margin-bottom: 100px;
+  }
+
+}
+
 
 @media only screen and (max-width: 767px) {
 
